@@ -3,6 +3,6 @@ beatr package
 
 
 you can install by running:  
-install.packages("devtools"). 
-library(devtools). 
-install_github("HeatherWelch/beatr"). 
+install.packages("devtools"). <br />
+library(devtools). <br />
+install_github("HeatherWelch/beatr"). <br />
