@@ -22,10 +22,16 @@ beatr=function(sound="ecoroms"){
     essential="shear_essential.wav",
     swift="shear_swift.wav",
     django="shear_django.wav",
-    ecoroms="ecoroms.wav"
+    ecoroms="ecoroms.wav",
+    nickleback="nickleback.wav",
+    bush="bush.wav",
+    mitch="mitch.wav",
+    seinfeld="seinfeld.wav",
+    hannibal="hannibal.wav",
+    slappin="slappin.wav"
   )
   if(sound=="show me"){
-    print("tubular, beak, essential, swift, django, ecoroms")
+    print("tubular, beak, essential, swift, django, ecoroms, nickleback, bush, mitch, seinfeld, hannibal, slappin")
   }
   else{
   sound_path <- file.path(find.package("beatr"), "adlibs", soundwaves[sound])
