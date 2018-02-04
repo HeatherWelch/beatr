@@ -4,15 +4,18 @@
 \alias{beatr}
 \title{A nastyverse function}
 \usage{
-beatr(sound)
+beatr(sound = "ecoroms")
 }
 \arguments{
-\item{love}{Do you love cats? Defaults to TRUE.}
+\item{sound}{character string specifiying which built in sound to be played. Defaults to ecoroms.}
 }
 \description{
-This function allows you to express your love of cats.
+This function allows you play some nasty beats to accompany your code.
 }
 \examples{
-# Play a nasty sound beatr("tubular")
+# Play a nasty sound
+beatr("tubular")
+# Update all packages and hear Good Morning Vietnam! when it is ready
+beatr("ecoroms")
 }
 \keyword{cats}
