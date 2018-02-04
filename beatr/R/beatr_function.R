@@ -2,7 +2,8 @@
 #'
 #' This function allows you play some nasty beats to accompany your code.
 #' @param sound character string specifiying which built in sound to be played. Defaults to ecoroms.
-#' @keywords cats
+#' @keywords dank
+#' @details use sound="show me" to see all possible arguments for the sound param
 #' @export
 #' @examples
 #' # Play a nasty sound
@@ -23,8 +24,13 @@ beatr=function(sound="ecoroms"){
     django="shear_django.wav",
     ecoroms="ecoroms.wav"
   )
+  if(sound=="show me"){
+    print("tubular, beak, essential, swift, django, ecoroms")
+  }
+  else{
   sound_path <- file.path(find.package("beatr"), "adlibs", soundwaves[sound])
   beepr::beep(sound_path)
+  }
 }
 
 
