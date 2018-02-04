@@ -11,7 +11,11 @@
 
 
 beatr=function(sound){
-  beepr::beep(paste0("R/sysdata.rda/",sound,".wav"))
+  soundwaves=c(
+    tubular="tubular.wav"
+  )
+  sound_path <- file.path(find.package("beatr"), "adlibs", soundwaves[sound])
+  beepr::beep(sound_path)
 }
 
 
