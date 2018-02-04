@@ -1,10 +1,10 @@
 Package: beatr
-Title: What the Package Does (one line, title case)
+Title: A package to add nasty soundbites to your scripts
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Heather", "Welch", email = "welchhm1@gmail.com", role = c("aut", "cre"))
+Description: This package adds nasty soundbites to your scripts to let you know when operations are finished.
 Depends: R (>= 3.3.2)
-License: What license is it under?
+License: YOLO
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1.9000
