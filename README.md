@@ -7,7 +7,7 @@ install_github("HeatherWelch/beatr/beatr") <br />**
 
 beatr package
 
-![alt text](beatr/inst/imgs/beatr.png?raw=True "beatr")
+![alt text](beatr/inst/imgs/beatr.png?raw=True "beatr"| width=100)
 
 Add some dank beats to your scripts using the beatr function.
 
