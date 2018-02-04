@@ -1,7 +1,8 @@
 # beatr
 beatr package
 
-![alt text](https://raw.githubusercontent.com/HeatherWelch/beatr/branch/inst/imgs/beatr.png)
+![alt text](https://raw.githubusercontent.com/HeatherWelch/beatr/beatr/inst/imgs/beatr.png)
+beatr/beatr/inst/imgs/beatr.png
 
 
 Add some dank beats to your scripts using the beatr function.
