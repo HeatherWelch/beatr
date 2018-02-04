@@ -9,7 +9,7 @@
 #' # Play a nasty sound
 #' beatr("tubular")
 #' # Update all packages and hear Good Morning Vietnam! when it is ready
-#' beatr("ecoroms")
+#' update.packages(ask=FALSE); beatr("ecoroms")
 #' @import beepr
 
 

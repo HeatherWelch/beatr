@@ -19,6 +19,6 @@ use sound="show me" to see all possible arguments for the sound param
 # Play a nasty sound
 beatr("tubular")
 # Update all packages and hear Good Morning Vietnam! when it is ready
-beatr("ecoroms")
+update.packages(ask=FALSE); beatr("ecoroms")
 }
 \keyword{dank}
