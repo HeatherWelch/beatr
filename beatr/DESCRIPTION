@@ -2,7 +2,7 @@ Package: beatr
 Title: A package to add nasty soundbites to your scripts
 Version: 0.0.0.9000
 Authors@R: person("Heather", "Welch", email = "welchhm1@gmail.com", role = c("aut", "cre"))
-Description: This package adds nasty soundbites to your scripts to let you know when operations are finished.
+Description: This package adds nasty soundbites to your scripts to let you know when operations are finished. It has once function, beatr(), which is entended to add steez to your scripts.
 Depends: R (>= 3.3.2)
 Imports: beepr
 License: YOLO

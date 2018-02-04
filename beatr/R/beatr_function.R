@@ -1,22 +1,27 @@
 #' A nastyverse function
 #'
-#' This function allows you to express your love of cats.
-#' @param love Do you love cats? Defaults to TRUE.
+#' This function allows you play some nasty beats to accompany your code.
+#' @param sound character string specifiying which built in sound to be played. Defaults to ecoroms.
 #' @keywords cats
 #' @export
-#' @examples # Play a nasty sound beatr("tubular")
+#' @examples
+#' # Play a nasty sound
+#' beatr("tubular")
+#' # Update all packages and hear Good Morning Vietnam! when it is ready
+#' beatr("ecoroms")
 #' @import beepr
 
 
 
 
-beatr=function(sound){
+beatr=function(sound="ecoroms"){
   soundwaves=c(
     tubular="shear_tubular.wav",
     beak="shear_beak.wav",
     essential="shear_essential.wav",
     swift="shear_swift.wav",
-    django="shear_django.wav"
+    django="shear_django.wav",
+    ecoroms="ecoroms.wav"
   )
   sound_path <- file.path(find.package("beatr"), "adlibs", soundwaves[sound])
   beepr::beep(sound_path)
