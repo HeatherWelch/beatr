@@ -12,10 +12,13 @@ beatr(sound = "ecoroms")
 \description{
 This function allows you play some nasty beats to accompany your code.
 }
+\details{
+use sound="show me" to see all possible arguments for the sound param
+}
 \examples{
 # Play a nasty sound
 beatr("tubular")
 # Update all packages and hear Good Morning Vietnam! when it is ready
 beatr("ecoroms")
 }
-\keyword{cats}
+\keyword{dank}
