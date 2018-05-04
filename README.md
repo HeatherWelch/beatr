@@ -1,6 +1,6 @@
 # beatr
 
-beatr package <br /> 
+beatr package <br />  
 <img src="beatr/inst/imgs/beatr.png?raw=True" width="100">
 
 Add some dank beats to your scripts using the beatr function.
